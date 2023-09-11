@@ -1,0 +1,22 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap');
+
+:root{
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #FECD2F;
+    --cor-tercaria: #002F52;
+    --cor-fundo: #EBECEE;
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+
+
+.cabecalho{
+   width: 428px;
+   height: 80px;
+}
+
+.cabecalho__icones{
+    width: 169px;
+}
