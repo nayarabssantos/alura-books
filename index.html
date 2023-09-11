@@ -8,39 +8,37 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho__menu">
-            <span class="cabecalho__menu__hamburguer cabecalho__menu__imagem"></span>
-            <img src="./assets/Logo.svg" alt="Logo alura books" class="cabecalho__menu__logo">
+    <header class="cabecalho"> 
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hambuguer" class="container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categoria</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="assets/Logo.svg" alt="Logo Alurbooks" class="container__imagem">
         </div>
-        <div class="cabecalho__menu">
-            <a href="#">
-                <img src="./assets/Favoritos.svg" alt="Meus favoritos" class="cabecalho__menu__imagem">
-            </a>
-            <a href="#">
-                <img src="./assets/Compras.svg" alt="Minhas compras" >
-            </a>
-            <a href="#">
-                <img src="./assets/Usuário.svg" alt="Meu Perfil">
-            </a>
+        <div class="container">
+            <a href="#"><img src="assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"><img src="assets/Compras.svg" alt="Minhas compras" class="container__imagem"></a>
+            <a href="#"><img src="assets/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
-    <main>
-        <section class="inicio">
-            <h2 class="inicio__titulo">
-                Já sabe por onde começar?
-            </h2>
-            <h3 class="inicio__subtitulo">
-                Encontre em nossa estante o que precisa para seu desenvolvimento
-            </h3>
-            <div class="inicio__busca">
-                <img src="./assets/Pesquisa.svg" alt="lupa indicando campo de perquisa">
-                <input type="text" placeholder="Qual será sua próxima leitura?">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Grupo Alura</p>
-    </footer>
 </body>
 </html>
