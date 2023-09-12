@@ -1,11 +1,20 @@
 @import url(/styles/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 :root{
     --cor-de-fundo:#EBECEE;
     --cor-primaria:#FFFFFF;
+    --cor-secundaria:#EB9B00;
+    --cor-terciaria: #002F52;
 
+    --cor-degrade: linear-gradient(97.54deg, #002F52, 35.49%, #326589 165.37%);
+
+    --font-primaria: 'Poppins', sans-serif;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--font-primaria);
+    font-size: 1em;
+    font-weight: 400;
 }
